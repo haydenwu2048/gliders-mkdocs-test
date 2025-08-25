@@ -10,11 +10,11 @@ theme:
     - search.highlight
     - content.tabs
 nav:
+  - Home: index.md
   - How-to Guides:
       - How to generate an SSH key pair: how/ssh-key.md
       - How to clone a GitLab repository with SSH: how/gitlab-repo-ssh.md
-  - Guide: guide.md
-
+  - Glider Data Pipeline: gdp/gdp.md
 # Built-in search
 plugins:
   - search

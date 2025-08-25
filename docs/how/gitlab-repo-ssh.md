@@ -43,8 +43,9 @@ Navigate to your desired directory and clone a Git repository with the SSH URL, 
 git clone git@gitlab.oceantrack.org:ceotr/practice_lab/tiny-python-projects.git
 ```
 
-If you want to clone a specific branch of a Git repository, you can do so by specifying the branch you want to clone
-after the repository URL.
+!!! tip
+    If you want to clone a specific branch of a Git repository, you can do so by specifying the branch you want to clone
+    after the repository URL.
 
 For example, if you wanted to clone the dev (development) branch from the above repository (if the branch exists):
 
