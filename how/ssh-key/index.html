@@ -11,10 +11,8 @@
         <link rel="canonical" href="https://haydenwu2048.github.io/gliders-mkdocs-test/how/ssh-key/">
       
       
-        <link rel="prev" href="../..">
       
-      
-        <link rel="next" href="../../guide/">
+        <link rel="next" href="../gitlab-repo-ssh/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -177,7 +175,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../.." class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -291,29 +289,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Welcome
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -388,6 +363,29 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gitlab-repo-ssh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to clone a GitLab repository with SSH
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -519,11 +517,18 @@ ssh-keygen command.</p>
 <h2 id="step-1-generate-ssh-key-pair">Step 1: Generate SSH key pair<a class="headerlink" href="#step-1-generate-ssh-key-pair" title="Permanent link">&para;</a></h2>
 <p>If you do not have an SSH key pair, on your local machine, open a terminal or command prompt and run the following
 command to generate an SSH key pair:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">rsa</label><label for="__tabbed_1_2">ed25519</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa<span class="w"> </span>-b<span class="w"> </span><span class="m">2048</span><span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;your_email@example.com&quot;</span>
 </code></pre></div>
-<p>OR:</p>
+</div>
+<div class="tabbed-block">
 <div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>ed25519<span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;your_email@example.com&quot;</span>
 </code></pre></div>
+</div>
+</div>
+</div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>If you’re using the latest macOS, it’s highly recommended to use the ed25519 algorithm to generate your SSH keys;
@@ -581,7 +586,7 @@ the name of your public key is <code>id_ed25519.pub</code>:</p>
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight", "content.tabs"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
