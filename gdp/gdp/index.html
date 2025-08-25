@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://haydenwu2048.github.io/gliders-mkdocs-test/how/gitlab-repo-ssh/">
+        <link rel="canonical" href="https://haydenwu2048.github.io/gliders-mkdocs-test/gdp/gdp/">
       
       
-        <link rel="prev" href="../ssh-key/">
+        <link rel="prev" href="../../how/gitlab-repo-ssh/">
       
-      
-        <link rel="next" href="../../gdp/gdp/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +20,7 @@
     
     
       
-        <title>How to clone a GitLab repository with SSH - Gliders Documentation</title>
+        <title>Glider Data Pipeline - Gliders Documentation</title>
       
     
     
@@ -64,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-clone-a-gitlab-repository-with-ssh" class="md-skip">
+        <a href="#glider-data-pipeline" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to clone a GitLab repository with SSH
+              Glider Data Pipeline
             
           </span>
         </div>
@@ -190,13 +188,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../ssh-key/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../how/ssh-key/" class="md-tabs__link">
           
   
   
@@ -212,9 +208,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../../gdp/gdp/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -286,29 +284,24 @@
       
   
   
-    
   
   
-  
     
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   
@@ -321,7 +314,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             How-to Guides
@@ -335,7 +328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ssh-key/" class="md-nav__link">
+      <a href="../../how/ssh-key/" class="md-nav__link">
         
   
   
@@ -355,6 +348,36 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how/gitlab-repo-ssh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to clone a GitLab repository with SSH
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -372,7 +395,7 @@
   
   
   <span class="md-ellipsis">
-    How to clone a GitLab repository with SSH
+    Glider Data Pipeline
     
   </span>
   
@@ -385,7 +408,7 @@
   
   
   <span class="md-ellipsis">
-    How to clone a GitLab repository with SSH
+    Glider Data Pipeline
     
   </span>
   
@@ -408,45 +431,102 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#step-0-generate-an-ssh-key-pair-locally" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 0: Generate an SSH key pair locally
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-1-copy-your-public-key" class="md-nav__link">
+  <a href="#rundeck-jobs" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 1: Copy your public key
+      Rundeck Jobs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-set-up-your-ssh-key-on-gitlab" class="md-nav__link">
+  <a href="#setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 2: Set up your SSH key on GitLab
+      Setup
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-copy-the-ssh-url-and-clone-the-repository" class="md-nav__link">
+  <a href="#useful-commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 3: Copy the SSH URL and clone the repository
+      Useful Commands
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
+  <a href="#database" class="md-nav__link">
     <span class="md-ellipsis">
-      Resources
+      Database
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Database">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modules
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-and-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code and Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Code and Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#folder-explanation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Folder Explanation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meta-generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta Generator
     </span>
   </a>
   
@@ -456,36 +536,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../gdp/gdp/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Glider Data Pipeline
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -517,45 +567,102 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#step-0-generate-an-ssh-key-pair-locally" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 0: Generate an SSH key pair locally
+      Overview
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-1-copy-your-public-key" class="md-nav__link">
+  <a href="#rundeck-jobs" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 1: Copy your public key
+      Rundeck Jobs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-set-up-your-ssh-key-on-gitlab" class="md-nav__link">
+  <a href="#setup" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 2: Set up your SSH key on GitLab
+      Setup
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-copy-the-ssh-url-and-clone-the-repository" class="md-nav__link">
+  <a href="#useful-commands" class="md-nav__link">
     <span class="md-ellipsis">
-      Step 3: Copy the SSH URL and clone the repository
+      Useful Commands
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
+  <a href="#database" class="md-nav__link">
     <span class="md-ellipsis">
-      Resources
+      Database
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Database">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Structure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modules
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-and-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code and Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Code and Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#folder-explanation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Folder Explanation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meta-generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta Generator
     </span>
   </a>
   
@@ -577,44 +684,122 @@
 
 
 
-<h1 id="how-to-clone-a-gitlab-repository-with-ssh">How to clone a GitLab repository with SSH<a class="headerlink" href="#how-to-clone-a-gitlab-repository-with-ssh" title="Permanent link">&para;</a></h1>
-<h2 id="step-0-generate-an-ssh-key-pair-locally">Step 0: Generate an SSH key pair locally<a class="headerlink" href="#step-0-generate-an-ssh-key-pair-locally" title="Permanent link">&para;</a></h2>
-<p>See <a href="../ssh-key/">How to generate an SSH key pair</a> for more details.</p>
-<h2 id="step-1-copy-your-public-key">Step 1: Copy your public key<a class="headerlink" href="#step-1-copy-your-public-key" title="Permanent link">&para;</a></h2>
-<p>You can now use the public key (<code>~/.ssh/id_rsa.pub</code>) to authenticate on remote servers or services. To copy it to your
-clipboard, you can use the <code>cat</code> command and pipe it to <code>pbcopy</code> (on macOS) or xclip (on Linux):</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">macOS</label><label for="__tabbed_1_2">Linux (with <code>xclip</code> installed)</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>cat<span class="w"> </span>~/.ssh/id_rsa.pub<span class="w"> </span><span class="p">|</span><span class="w"> </span>pbcopy
+<h1 id="glider-data-pipeline">Glider Data Pipeline<a class="headerlink" href="#glider-data-pipeline" title="Permanent link">&para;</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>GDP (Glider Data Pipeline) is a program which can automatically process realtime and delayed slcoum dataset.</p>
+<p>Repo: https://gitlab.oceantrack.org/ceotr/gliders/gdp</p>
+<h2 id="rundeck-jobs">Rundeck Jobs<a class="headerlink" href="#rundeck-jobs" title="Permanent link">&para;</a></h2>
+<p>Both realtime and delayed mode process handled by Rundeck server</p>
+<ul>
+<li>Relatime</li>
+<li>Delayed</li>
+</ul>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<p>Requirements:</p>
+<ul>
+<li>postgres database</li>
+<li>GenerateDatasetsXml</li>
+<li>Linux server</li>
+</ul>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>git@gitlab.oceantrack.org:ceotr/gliders/gdp.git
+<span class="nb">cd</span><span class="w"> </span>gdp
+conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>environemtn.yml
+<span class="nb">source</span><span class="w"> </span>activate<span class="w"> </span>GDP
+python<span class="w"> </span>manage.py<span class="w"> </span>migrate
+python<span class="w"> </span>manage.py<span class="w"> </span>slocum_run
+<span class="c1"># for the first run, it will throw out the exception for fill out pw_info.yml</span>
 </code></pre></div>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>cat<span class="w"> </span>~/.ssh/id_rsa.pub<span class="w"> </span><span class="p">|</span><span class="w"> </span>xclip<span class="w"> </span>-sel<span class="w"> </span>clip
-</code></pre></div>
-</div>
-</div>
-</div>
-<h2 id="step-2-set-up-your-ssh-key-on-gitlab">Step 2: Set up your SSH key on GitLab<a class="headerlink" href="#step-2-set-up-your-ssh-key-on-gitlab" title="Permanent link">&para;</a></h2>
-<p><img alt="" src="../../images%20/1328350046816666.png" /></p>
-<p>Click the Edit profile button, or go to your GitLab profile page: <code>https://gitlab.oceantrack.org/-/profile</code></p>
-<p><img alt="" src="../../images%20/1328432563485166.png" /></p>
-<p>Paste your public key in the Key text area and click the Add key button to add the key.</p>
-<h2 id="step-3-copy-the-ssh-url-and-clone-the-repository">Step 3: Copy the SSH URL and clone the repository<a class="headerlink" href="#step-3-copy-the-ssh-url-and-clone-the-repository" title="Permanent link">&para;</a></h2>
-<p><img alt="" src="../../images%20/1328521364491583.png" /></p>
-<p>Navigate to your desired directory and clone a Git repository with the SSH URL, for example:</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>git@gitlab.oceantrack.org:ceotr/practice_lab/tiny-python-projects.git
-</code></pre></div>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>If you want to clone a specific branch of a Git repository, you can do so by specifying the branch you want to clone
-after the repository URL.</p>
-</div>
-<p>For example, if you wanted to clone the dev (development) branch from the above repository (if the branch exists):</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>-b<span class="w"> </span>dev<span class="w"> </span>git@gitlab.oceantrack.org:ceotr/practice_lab/tiny-python-projects.git
-</code></pre></div>
-<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
-<p><a href="https://docs.gitlab.com/user/ssh/#generate-an-ssh-key-pair">Use SSH keys to communicate with GitLab | GitLab Docs</a> </p>
+<h2 id="useful-commands">Useful Commands<a class="headerlink" href="#useful-commands" title="Permanent link">&para;</a></h2>
+<p>Autodetect mission and processing commands</p>
+<ul>
+<li>process slocum realtime mission</li>
+<li>process high resolution data for most recent unprocessed slocum mission</li>
+<li>process high resolution data for mission 136</li>
+</ul>
+<h2 id="database">Database<a class="headerlink" href="#database" title="Permanent link">&para;</a></h2>
+<p>Database chosen: Postgres
+<strong>Purpose</strong>:</p>
+<ul>
+<li>Record data processing status.</li>
+</ul>
+<p><strong>Goals</strong>:</p>
+<ol>
+<li>Tracking data files' processed status</li>
+<li>Tracking missions' processed status</li>
+<li>Able to handler multiprocess</li>
+</ol>
+<h3 id="structure">Structure<a class="headerlink" href="#structure" title="Permanent link">&para;</a></h3>
+<p><img alt="" src="../../images%20/1331772989006625.png" /></p>
+<ul>
+<li>Mission table</li>
+<li>Mission_process table</li>
+<li>Process_dir table</li>
+<li>Process_files table</li>
+</ul>
+<h3 id="modules">Modules<a class="headerlink" href="#modules" title="Permanent link">&para;</a></h3>
+<ul>
+<li>conf:<ul>
+<li>The module works with setting and configurations</li>
+</ul>
+</li>
+<li>core:<ul>
+<li>Pipeline major logic</li>
+</ul>
+</li>
+<li>db:<ul>
+<li>Handle database stuff</li>
+</ul>
+</li>
+<li>engine:<ul>
+<li>Module for place data processors</li>
+</ul>
+</li>
+<li>management:<ul>
+<li>Place for commands, and start point of the program</li>
+</ul>
+</li>
+<li>meta:<ul>
+<li>Modules stream data from sensor_tracker Restful api server</li>
+</ul>
+</li>
+<li>Parser:<ul>
+<li>For parsers, Planning to remove</li>
+</ul>
+</li>
+<li>Utils:<ul>
+<li>Random useful functions</li>
+</ul>
+</li>
+</ul>
+<h2 id="code-and-design">Code and Design<a class="headerlink" href="#code-and-design" title="Permanent link">&para;</a></h2>
+<p><strong>OOP High level abstract design diagram</strong>
+<img alt="" src="../../images%20/1332027572288583.png" /></p>
+<p><strong>Workflow</strong>
+<img alt="" src="../../images%20/1332044019751208.png" /></p>
+<p><strong>File Structure</strong>
+<img alt="" src="../../images%20/1332059787290875.png" />
+<img alt="" src="../../images%20/1332065327287250.png" /></p>
+<h3 id="folder-explanation">Folder Explanation<a class="headerlink" href="#folder-explanation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Engine: place for data process code</li>
+<li>Component: place for useful tools which can be shared in the GDP project</li>
+<li>contribute: place to add steps</li>
+<li>core: place to define GDP bone and workflow</li>
+</ul>
+<h2 id="meta-generator">Meta Generator<a class="headerlink" href="#meta-generator" title="Permanent link">&para;</a></h2>
+<p>Meta-Generator is a module of GDP which can be used to generate meta JSON files. The meta JSON files will be used to
+generate nc files. Meta JSON files contain almost all the Metadata for a glider dataset except few such as</p>
+<p>dataset_ids, dataset_title and etc.</p>
+<p><img alt="" src="../../images%20/1332171636473708.png" /></p>
+<p>There are three major steps for the meta-generator to generate the Meta JSON files</p>
+<ol>
+<li>Request and reformat data from the sensor tracker </li>
+<li>The meta-generator used sensor tracker's Deployment Hierarchy API endpoint for data request</li>
+<li>Apply filters to the data</li>
+<li>Feed the data to the JSON template</li>
+</ol>
+<p>Then write the JSON files to the disk.
+<img alt="" src="../../images%20/1332250894263000.png" /></p>
 
 
 
