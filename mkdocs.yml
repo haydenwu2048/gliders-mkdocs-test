@@ -1,0 +1,32 @@
+site_name: Gliders Documentation
+site_url: https://haydenwu2048.github.io//glider-docs-test/
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+nav:
+  - Home: index.md
+  # Add more pages like:
+  - Guide: guide.md
+
+# Built-in search
+plugins:
+  - search
+
+# Useful Markdown extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - attr_list
+  - def_list
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
