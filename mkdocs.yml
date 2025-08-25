@@ -10,8 +10,9 @@ theme:
     - search.suggest
     - search.highlight
 nav:
-  - Home: index.md
-  # Add more pages like:
+  - How-to Guides:
+      - Welcome: index.md
+      - How to generate an SSH key pair: how/ssh-key.md
   - Guide: guide.md
 
 # Built-in search
