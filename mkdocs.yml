@@ -9,10 +9,11 @@ theme:
     - content.action.edit
     - search.suggest
     - search.highlight
+    - content.tabs
 nav:
   - How-to Guides:
-      - Welcome: index.md
       - How to generate an SSH key pair: how/ssh-key.md
+      - How to clone a GitLab repository with SSH: how/gitlab-repo-ssh.md
   - Guide: guide.md
 
 # Built-in search
@@ -31,3 +32,5 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true # have to include this

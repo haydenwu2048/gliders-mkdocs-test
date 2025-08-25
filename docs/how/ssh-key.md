@@ -36,15 +36,15 @@ ssh-keygen command.
 If you do not have an SSH key pair, on your local machine, open a terminal or command prompt and run the following
 command to generate an SSH key pair:
 
-```shell
-ssh-keygen -t rsa -b 2048 -C "your_email@example.com"
-```
+=== "rsa"
+    ```bash
+    ssh-keygen -t rsa -b 2048 -C "your_email@example.com"
+    ```
 
-OR:
-
-```shell
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
+=== "ed25519"
+    ```bash
+    ssh-keygen -t ed25519 -C "your_email@example.com"
+    ```
 
 !!! warning
     If you’re using the latest macOS, it’s highly recommended to use the ed25519 algorithm to generate your SSH keys;
