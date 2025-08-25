@@ -3,7 +3,6 @@ site_url: https://haydenwu2048.github.io/gliders-mkdocs-test/
 theme:
   name: material
   features:
-    - navigation.instant
     - navigation.tabs
     - content.code.copy
     - content.action.edit
