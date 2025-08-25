@@ -8,19 +8,25 @@
       
       
       
+        <link rel="canonical" href="https://haydenwu2048.github.io/gliders-mkdocs-test/how/ssh-key/">
       
       
+        <link rel="prev" href="../..">
       
-      <link rel="icon" href="/gliders-mkdocs-test/assets/images/favicon.png">
+      
+        <link rel="next" href="../../guide/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>Gliders Documentation</title>
+        <title>How to generate an SSH key pair - Gliders Documentation</title>
       
     
     
-      <link rel="stylesheet" href="/gliders-mkdocs-test/assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -39,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("/gliders-mkdocs-test/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#how-to-generate-an-ssh-key-pair" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -67,7 +78,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/gliders-mkdocs-test/." title="Gliders Documentation" class="md-header__button md-logo" aria-label="Gliders Documentation" data-md-component="logo">
+    <a href="../.." title="Gliders Documentation" class="md-header__button md-logo" aria-label="Gliders Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -87,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              How to generate an SSH key pair
             
           </span>
         </div>
@@ -160,11 +171,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/gliders-mkdocs-test/." class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../.." class="md-tabs__link">
           
   
   
@@ -182,7 +195,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/gliders-mkdocs-test/guide/" class="md-tabs__link">
+      <a href="../../guide/" class="md-tabs__link">
         
   
   
@@ -217,7 +230,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/gliders-mkdocs-test/." title="Gliders Documentation" class="md-nav__button md-logo" aria-label="Gliders Documentation" data-md-component="logo">
+    <a href="../.." title="Gliders Documentation" class="md-nav__button md-logo" aria-label="Gliders Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -232,24 +245,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
             
   
   
@@ -262,7 +280,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             How-to Guides
@@ -276,7 +294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gliders-mkdocs-test/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -296,10 +314,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/gliders-mkdocs-test/how/ssh-key/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    How to generate an SSH key pair
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -310,6 +350,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-0-check-if-you-have-an-existing-ssh-key-pair" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 0: Check if you have an existing SSH key pair
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-generate-ssh-key-pair" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Generate SSH key pair
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -329,7 +407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gliders-mkdocs-test/guide/" class="md-nav__link">
+      <a href="../../guide/" class="md-nav__link">
         
   
   
@@ -361,6 +439,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#step-0-check-if-you-have-an-existing-ssh-key-pair" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 0: Check if you have an existing SSH key pair
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-generate-ssh-key-pair" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step 1: Generate SSH key pair
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -372,8 +478,74 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="how-to-generate-an-ssh-key-pair">How to generate an SSH key pair<a class="headerlink" href="#how-to-generate-an-ssh-key-pair" title="Permanent link">&para;</a></h1>
+<h2 id="step-0-check-if-you-have-an-existing-ssh-key-pair">Step 0: Check if you have an existing SSH key pair<a class="headerlink" href="#step-0-check-if-you-have-an-existing-ssh-key-pair" title="Permanent link">&para;</a></h2>
+<p>To check if you already have an SSH key pair on your local machine (macOS or Linux), you can follow these steps:</p>
+<ol>
+<li>
+<p>Open a terminal or command prompt on your local machine.</p>
+</li>
+<li>
+<p>Navigate to your SSH directory by entering the following command:</p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>~/.ssh
+ls
+</code></pre></div>
+<p>The above command will display the files and directories within the <code>.ssh</code> directory.</p>
+<p>If you already have an SSH key pair, you should see one or more files with names similar to the following:</p>
+<ul>
+<li>
+<p><code>id_rsa</code> (private key)</p>
+</li>
+<li>
+<p><code>id_rsa.pub</code> (public key)</p>
+</li>
+<li>
+<p><code>id_dsa</code> (private key)</p>
+</li>
+<li>
+<p><code>id_dsa.pub</code> (public key)</p>
+</li>
+</ul>
+<p>The <code>.pub</code> files represent the public keys, while the files without the .pub extension are the private keys.</p>
+<p>If you see the key files listed, it means you already have an SSH key pair on your local machine. If the files are not
+present or the directory doesn't exist, you don't have an SSH key pair yet and can proceed with generating one using the
+ssh-keygen command.</p>
+<h2 id="step-1-generate-ssh-key-pair">Step 1: Generate SSH key pair<a class="headerlink" href="#step-1-generate-ssh-key-pair" title="Permanent link">&para;</a></h2>
+<p>If you do not have an SSH key pair, on your local machine, open a terminal or command prompt and run the following
+command to generate an SSH key pair:</p>
+<div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa<span class="w"> </span>-b<span class="w"> </span><span class="m">2048</span><span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;your_email@example.com&quot;</span>
+</code></pre></div>
+<p>OR:</p>
+<div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>ed25519<span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;your_email@example.com&quot;</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you’re using the latest macOS, it’s highly recommended to use the ed25519 algorithm to generate your SSH keys;
+otherwise, you might need to update the SSH configuration file to support the rsa option.</p>
+</div>
+<p>Copy the Public Key on macOS: Use the pbcopy command to copy the contents of the public key to your clipboard, suppose
+the name of your public key is <code>id_ed25519.pub</code>:</p>
+<div class="highlight"><pre><span></span><code>pbcopy<span class="w"> </span>&lt;<span class="w"> </span>~/.ssh/id_ed25519.pub
+</code></pre></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -409,10 +581,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/gliders-mkdocs-test/", "features": ["navigation.instant", "navigation.tabs", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight"], "search": "/gliders-mkdocs-test/assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "content.code.copy", "content.action.edit", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/gliders-mkdocs-test/assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
     
   </body>
