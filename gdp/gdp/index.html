@@ -701,14 +701,14 @@
 <li>GenerateDatasetsXml</li>
 <li>Linux server</li>
 </ul>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>git@gitlab.oceantrack.org:ceotr/gliders/gdp.git
-<span class="nb">cd</span><span class="w"> </span>gdp
-conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>environemtn.yml
-<span class="nb">source</span><span class="w"> </span>activate<span class="w"> </span>GDP
-python<span class="w"> </span>manage.py<span class="w"> </span>migrate
-python<span class="w"> </span>manage.py<span class="w"> </span>slocum_run
-<span class="c1"># for the first run, it will throw out the exception for fill out pw_info.yml</span>
-</code></pre></div>
+<pre><code class="language-shell">git clone git@gitlab.oceantrack.org:ceotr/gliders/gdp.git
+cd gdp
+conda env create -f environemtn.yml
+source activate GDP
+python manage.py migrate
+python manage.py slocum_run
+# for the first run, it will throw out the exception for fill out pw_info.yml
+</code></pre>
 <h2 id="useful-commands">Useful Commands<a class="headerlink" href="#useful-commands" title="Permanent link">&para;</a></h2>
 <p>Autodetect mission and processing commands</p>
 <ul>
@@ -852,6 +852,10 @@ generate nc files. Meta JSON files contain almost all the Metadata for a glider 
     
     
       <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

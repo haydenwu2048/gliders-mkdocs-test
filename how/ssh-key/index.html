@@ -534,9 +534,9 @@
 <p>Navigate to your SSH directory by entering the following command:</p>
 </li>
 </ol>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>~/.ssh
+<pre><code class="language-shell">cd ~/.ssh
 ls
-</code></pre></div>
+</code></pre>
 <p>The above command will display the files and directories within the <code>.ssh</code> directory.</p>
 <p>If you already have an SSH key pair, you should see one or more files with names similar to the following:</p>
 <ul>
@@ -563,12 +563,12 @@ command to generate an SSH key pair:</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">rsa</label><label for="__tabbed_1_2">ed25519</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa<span class="w"> </span>-b<span class="w"> </span><span class="m">2048</span><span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;your_email@example.com&quot;</span>
-</code></pre></div>
+<p><code>bash
+ssh-keygen -t rsa -b 2048 -C "your_email@example.com"</code></p>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>ed25519<span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;your_email@example.com&quot;</span>
-</code></pre></div>
+<p><code>bash
+ssh-keygen -t ed25519 -C "your_email@example.com"</code></p>
 </div>
 </div>
 </div>
@@ -579,8 +579,8 @@ otherwise, you might need to update the SSH configuration file to support the rs
 </div>
 <p>Copy the Public Key on macOS: Use the pbcopy command to copy the contents of the public key to your clipboard, suppose
 the name of your public key is <code>id_ed25519.pub</code>:</p>
-<div class="highlight"><pre><span></span><code>pbcopy<span class="w"> </span>&lt;<span class="w"> </span>~/.ssh/id_ed25519.pub
-</code></pre></div>
+<pre><code class="language-shell">pbcopy &lt; ~/.ssh/id_ed25519.pub
+</code></pre>
 
 
 
@@ -633,6 +633,10 @@ the name of your public key is <code>id_ed25519.pub</code>:</p>
     
     
       <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
